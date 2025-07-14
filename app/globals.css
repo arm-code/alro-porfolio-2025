@@ -3,6 +3,13 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --flame-1-blue: #1E3A8A;
+  --flame-2-gold: #FACC15;
+  --flame-3-pink: #F472B6;
+  --flame-4-white: #F9FAFB;
+  --flame-5-green: #10B981;
+  --flame-6-ruby: #FB923C;
+  --flame-7-violet: #8B5CF6;
 }
 
 @theme inline {
