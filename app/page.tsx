@@ -1,17 +1,15 @@
-import { CoverParticles } from "@/components/cover-particles.component";
+"use client"
 
+import { CoverParticles } from "@/components/cover-particles.component";
+import TransitionPage from "@/components/transition-page.component";
 
 export default function Home() {
   return (
     <main>
-      <div>
-        <CoverParticles />
-        <h1 className="text-4xl font-bold text-center text-white">
-          Hi! I am Alexis Romero Mendoza, a software engineer and web developer.
-        </h1>
+      <TransitionPage />
+      <div className="flex min-h-[100vh] h-full bg-no-repeat bg-gradient-cover">
+        <CoverParticles />        
       </div>
-      
-      
     </main>
   );
 }
